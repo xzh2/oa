@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/oa-dao/dao.iml" filepath="$PROJECT_DIR$/oa-dao/dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oa.iml" filepath="$PROJECT_DIR$/oa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oa-service-impl/oa-service-impl.iml" filepath="$PROJECT_DIR$/oa-service-impl/oa-service-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oa-web/oa-web.iml" filepath="$PROJECT_DIR$/oa-web/oa-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oa-service/oaservice.iml" filepath="$PROJECT_DIR$/oa-service/oaservice.iml" />
+    </modules>
+  </component>
+</project>

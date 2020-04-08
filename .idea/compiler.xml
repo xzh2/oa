@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="oa-service-impl" />
+        <module name="oaservice" />
+        <module name="oa-web" />
+        <module name="dao" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dao" target="1.8" />
+      <module name="oa" target="1.8" />
+      <module name="oa-service-impl" target="1.8" />
+      <module name="oa-web" target="1.8" />
+      <module name="oacommon" target="1.8" />
+      <module name="oaservice" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dao" options="-parameters" />
+      <module name="oa" options="-parameters" />
+      <module name="oa-service-impl" options="-parameters" />
+      <module name="oa-web" options="-parameters" />
+      <module name="oacommon" options="-parameters" />
+      <module name="oaservice" options="-parameters" />
+    </option>
+  </component>
+</project>
